@@ -111,6 +111,7 @@ def analyze_etl_script(script_content, file_name=None, additional_questions=None
 
 
 
+# Evaluate the script based on four key parameters: Auditability (checking for logs, timestamps, and row counts), Reconcilability (ensuring data consistency checks are in place), Restartability (determining if the script can resume from a failure point), and Exception Handling (verifying proper error handling and alert mechanisms).
 
 
 # output
